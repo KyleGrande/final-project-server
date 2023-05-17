@@ -12,7 +12,7 @@ const seedDB = async () => {
 		name: "Hunter College",
 		address: "695 Park Ave, New York, NY 10065",
 		description: "This is a school in New York, New York.",
-		imageUrl: "https://th.bing.com/th/id/R.abfa04bec496dfb9d3c9ddf555ca94d4?rik=LB%2fT6%2buxfgKuQg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fKij%2fg5a%2fKijg5a9kT.png&ehk=w79KSNN2Rov1SqDl7XAzzIccwyve1%2biWYR3RC45PWlA%3d&risl=&pid=ImgRaw&r=0"});
+	});
 	// Create a new campus
 	const dummy_campus2 = await Campus.create({
 		name: "Queens College",
